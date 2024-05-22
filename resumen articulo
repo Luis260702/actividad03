@@ -1,0 +1,22 @@
+"Extending Amdahl’s Law for the Cloud Computing Era"
+Introducción
+El documento analiza la extensión de la Ley de Amdahl en el contexto de la computación en la nube. Amdahl's Law es una fórmula utilizada para encontrar la velocidad máxima que se puede obtener al mejorar una parte de un sistema. Los autores proponen una extensión de esta ley para evaluar los beneficios de trasladar aplicaciones a la nube.
+Computación en la Nube 
+La computación en la nube ofrece varias ventajas sobre la computación local, como el escalado automático, la eliminación de la necesidad de comprar y mantener hardware físico, y el ahorro de energía para dispositivos móviles. Sin embargo, la ejecución remota puede no ser siempre más rápida que la local, especialmente para aplicaciones con restricciones de tiempo real.
+Ley de Amdahl y la Nube 
+Originalmente, la Ley de Amdahl comparaba el tiempo de ejecución en procesadores únicos versus multiprocesadores. En el contexto de la nube, se compara el rendimiento de aplicaciones centralizadas versus aplicaciones desplazadas a la nube. Se introduce una fórmula de velocidad (S) que depende de la fracción del tiempo mejorado (F) y el factor de mejora (S_f).
+Ejecución Centralizada y Desplazada 
+La ejecución centralizada utiliza un CPU local con memoria jerárquica, mientras que la ejecución en la nube implica enviar datos a un servidor remoto, ejecutar el programa en la nube y devolver los resultados. El tiempo de ejecución en la nube se calcula considerando la transferencia de datos y el tiempo de computación.
+Factores Clave 
+Los autores identifican varios factores que afectan el rendimiento y el ahorro de energía al utilizar la nube:
+1.	Superposición de Tiempos: La superposición entre los tiempos de comunicación y computación es crucial.
+2.	Relación μ/DI: La relación entre el número de instrucciones por bit de datos (DI) y la tasa de mejora de rendimiento (μ) es crítica. Una menor relación sugiere mayores beneficios del uso de la nube.
+3.	Proporción Paralela (F): La fracción del programa que puede ejecutarse en paralelo afecta significativamente la velocidad obtenida al usar la nube.
+Ejemplos y Aplicaciones 
+Se presentan ejemplos prácticos, como la búsqueda de información en grandes bases de datos y el procesamiento de imágenes con cámaras estéreo, para ilustrar cómo las aplicaciones pueden beneficiarse del offloading a la nube. Aplicaciones científicas y robóticas suelen ser paralelas y pueden obtener grandes mejoras de velocidad mediante la computación en la nube.
+Conclusiones
+1.	Crecimiento de F y DI: Para muchas aplicaciones, los valores de F y DI aumentan con la complejidad del problema, haciendo más viable el uso de la nube.
+2.	Beneficios Energéticos: La computación en la nube puede ahorrar energía, especialmente para dispositivos móviles con limitaciones de batería.
+3.	Tendencias Futuras: Se espera que la relación μ/DI disminuya, aumentando los beneficios de la nube. Además, el hardware simplificado podría convertirse en una nueva tendencia, reduciendo la complejidad del software y ahorrando energía.
+En resumen, la extensión de la Ley de Amdahl propuesta en el documento proporciona un marco para evaluar cuándo es ventajoso trasladar aplicaciones a la nube, teniendo en cuenta tanto el rendimiento como el consumo energético.
+
